@@ -1,0 +1,53 @@
+baseURL = "https://www.jfriedson.github.io"
+languageCode = "en-us"
+theme = "adritian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Experience"
+  URL = "#experience"
+  weight = 2
+
+  [[menu.header]]
+  name = "Resume"
+  URL = "/files/Friedson_Josh-Resume_Fall_2024.pdf"
+  weight = 3
+
+  [[menu.header]]
+  name = "Projects"
+  URL = "#projects"
+  weight = 4
+
+
+[params]
+
+  sections = ["showcase", "experience", "education", "certifications", "projects"]
+
+  homepageExperienceCount = 2
+  homepageCertificationsCount = 4
+
+  [params.logo]
+    text1 = "Josh"
+    text2 = "Friedson"

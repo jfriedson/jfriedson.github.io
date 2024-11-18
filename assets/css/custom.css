@@ -1,0 +1,18 @@
+/* You can customize theme styles here */
+.header .navbar-brand span:first-child {
+    color: #429289;
+}
+.header .container {
+    padding-left: 10px;
+}
+
+html body ::selection {
+    background-color: #429289;
+    color: #fff;
+}
+
+p a, span a {
+    color: #429289;
+    border-bottom: none;
+}
+
