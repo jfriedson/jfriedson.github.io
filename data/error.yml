@@ -1,0 +1,7 @@
+image:
+  alt: "404 not found image"
+  x: "images/404.png"
+  _2x: "images/404@2x.png"
+imageMobile:
+  alt: "404 not found image"
+  x: "images/404.png"

@@ -45,7 +45,7 @@ education:
   title: "Education"
   items:
     - university: "San Diego State University"
-      year: "2017-2021"
+      year: "2017 - 2021"
       degree: "Bachelor of Applied Science (BASc), Computer Science"
 
 certifications:
@@ -55,6 +55,10 @@ certifications:
     icon: "bi-card-checklist"
     btnText: "Credly Profile"
     URL: "https://www.credly.com/users/josh-friedson"
+  button3: 
+    icon: "icon-arrow-right"
+    btnText: "All certifications"
+    URL: "/certifications"
   items:
     - certificate: "AWS Certified Developer - Associate"
       dates: "Feb 2024 - Feb 2027"

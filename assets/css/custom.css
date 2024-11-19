@@ -16,3 +16,14 @@ p a, span a {
     border-bottom: none;
 }
 
+body.home div.experience {
+    padding-top: 0;
+}
+
+.experience + .experience {
+    padding-top: 5px;
+}
+
+.experience-adj {
+    padding-top: 50px;
+}

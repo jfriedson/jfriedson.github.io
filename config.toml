@@ -1,6 +1,7 @@
 baseURL = "https://www.jfriedson.github.io"
 languageCode = "en-us"
 theme = "adritian-free-hugo-theme"
+disablePathToLower = true
 
 # Plugins
 [params.plugins]
@@ -31,15 +32,14 @@ theme = "adritian-free-hugo-theme"
   weight = 2
 
   [[menu.header]]
-  name = "Resume"
-  URL = "/files/Friedson_Josh-Resume_Fall_2024.pdf"
+  name = "Projects"
+  URL = "#projects"
   weight = 3
 
   [[menu.header]]
-  name = "Projects"
-  URL = "#projects"
+  name = "Resume"
+  URL = "/files/Friedson_Josh-Resume_Fall_2024.pdf"
   weight = 4
-
 
 [params]
 

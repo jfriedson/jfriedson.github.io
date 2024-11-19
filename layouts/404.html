@@ -9,14 +9,36 @@
 <body>
     {{ partial "header.html" . }}
 
-    <section class="section four-o-four">
+    <section class="section">
       <div class="container text-center">
-        <h1 class="display-1">404</h1>
-        <h4>Page not found</h4>
-        <p>
-          Sorry, but the page you were looking for could not be found.
-        </p>
-        <a href="{{ .Site.BaseURL | absURL }}" class="btn btn-primary">Back to homepage</a>
+        <div class="row rad-fade-down">
+          <div class="col-12">
+            <h4>Page not found. Only cat.</h4>
+
+            {{ $img := resources.Get .Site.Data.error.image.x }}
+            {{ $img2x := resources.Get .Site.Data.error.image._2x }}
+            {{ $imgWebp := $img.Resize (printf "%dx%d webp q90 Lanczos picture" $img.Width $img.Height) }}
+            {{ $img2xWebp := $img2x.Resize (printf "%dx%d webp q90 Lanczos picture" $img2x.Width $img2x.Height) }}
+
+            <picture>
+              <source srcset="{{ $imgWebp.RelPermalink }} 1x, {{ $img2xWebp.RelPermalink }} 2x" type="image/webp" />
+              <source srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x" type="image/webp">
+              <img
+                width="{{ $img.Width }}"
+                height="{{ $img.Height }}"
+                class="lozad img-fluid"
+                src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+                srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                data-src="{{ $img.RelPermalink }}"
+                data-srcset="{{ $img.RelPermalink }} 1x, {{ $img2x.RelPermalink }} 2x"
+                alt="{{ .Site.Data.error.image.alt }}"
+              />
+            </picture>
+            <br />
+            
+            <a href="{{ .Site.BaseURL | absURL }}" class="btn btn-primary">Back to homepage</a>
+          </div>
+        </div>
       </div>
     </section>
 
