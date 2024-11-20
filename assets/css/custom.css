@@ -1,7 +1,7 @@
-/* You can customize theme styles here */
 .header .navbar-brand span:first-child {
     color: #429289;
 }
+
 .header .container {
     padding-left: 10px;
 }
@@ -26,4 +26,41 @@ body.home div.experience {
 
 .experience-adj {
     padding-top: 50px;
+}
+
+iframe {
+    border: 0;
+    overflow: hidden;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 90%;
+}
+
+#project-iframe-container {
+    height: fit-content;
+    width: 100%;
+    background-color: #171717;
+    overflow: hidden;
+    padding-top: 50%;
+    position: relative;
+    background: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100% 100%"><text fill="%23FFFFFF" x="50%" y="50%" font-family="\'Lucida Grande\', sans-serif" font-size="24" text-anchor="middle">Loading project...</text></svg>') 0px 0px no-repeat;
+}
+
+.section li {
+    color: #333 !important;
+}
+
+.section li::before {
+    background-color: #333 !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .section li {
+        color: rgba(255, 255, 255, 0.6) !important;
+    }
+
+    .section li::before {
+        background-color: rgba(255, 255, 255, 0.6) !important;
+    }
 }

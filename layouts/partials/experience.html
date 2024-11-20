@@ -1,5 +1,5 @@
 {{ if .Site.Data.homepage.experience.enable }}
-<section id="experience" class="section-experience section section--border-bottom rad-animation-group">
+<section id="experience" class="section-experience section {{ if .IsHome }} section--border-bottom {{ end }} rad-animation-group">
     <div class="container">
         <div class="row flex-column-reverse flex-md-row rad-fade-down">
             <div class="experience-adj col-12 cold-md-12 col-sm-6 mt-5 mt-sm-0">
@@ -14,8 +14,6 @@
                 {{ range first $totalCount $xp }}
                 <div class="experience">
                     <a href="{{.Permalink}}">
-                        {{/* The context, ".", is now each one of the pages as it goes
-                        through the loop */}}
                         <div class="experience__date">{{ .Params.duration }}</div>
                         <div class="experience__title">{{ .Params.jobTitle }}</div>
                         <div class="experience__company">{{ .Params.company }}</div>
