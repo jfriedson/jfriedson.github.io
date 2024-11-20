@@ -6,7 +6,7 @@ year: "2022"
 ---
 ## Neural Network-Driven Cars
 
-Neural network-driven cars undergoing evolution by an ensemble of genetic algorithms all within the web browser.
+This genetic algorithm crossbreeds and mutates world-class F1 drivers in your browser.
 
 <a href="https://github.com/jfriedson/neural-network-cars" class="btn btn-primary" target="_blank" rel="noopener noreferrer"><i class="icon-github-line"></i>Source Code on GitHub</a>
 

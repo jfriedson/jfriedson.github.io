@@ -49,7 +49,7 @@ unsafe = true
 
 [params]
 
-  sections = ["showcase", "experience", "education", "certifications", "projects"]
+  sections = ["showcase", "demo", "experience", "education", "certifications", "projects"]
 
   homepageExperienceCount = 2
   homepageCertificationsCount = 4

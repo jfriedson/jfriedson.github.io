@@ -22,10 +22,15 @@ showcase:
     - icon: "mail-fill"
       URL: "mailto:business@joshfriedson.com"
 
+demo:
+  enable: true
+  title: "A Cool Demo App"
+  description: "Approaching 2 years of full-time experience in Java modernizing web app back ends and building Android apps."
+
 experience:
   enable: true
   title: "Experience"
-  description: "Approaching 2 years of full-time experience in Java modernizing web app back ends and building embedded Android software."
+  description: "Approaching 2 years of full-time experience in Java modernizing web app back ends and building Android apps."
   button:
     icon: "icon-linkedin-fill"
     btnText: "Linkedin"

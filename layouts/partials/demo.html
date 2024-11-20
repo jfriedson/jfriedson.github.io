@@ -1,0 +1,17 @@
+{{ if .Site.Data.homepage.demo.enable }}
+<section class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row rad-fade-down">
+            <div class="col-12">
+                <h2>{{ .Site.Data.homepage.demo.title }}</h2>
+                <p>Below is a demo of neural network-driven cars undergoing evolution by an ensemble of genetic algorithms.</p>
+                <p>You can load the trained network that completes the racetrack by clicking <button id="pretrained" type="button" class="btn btn-frameless" style="cursor: pointer;" title="Load Trained Network">this button</button>
+                and learn more about this project on the <a href="/projects/neural-network-driven-cars" title="Genetic Cars project page">Genetic Cars</a> project page.</p>
+                <div id="project-iframe-container" class="d-flex justify-content-center flex-nowrap">
+                    <iframe src="/projects/neural-network-cars/app" title="Gentic Cars Demo" frameborder="0" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}
