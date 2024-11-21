@@ -4,7 +4,11 @@
 <meta name="theme-color" content="#478079" >
 
 <title>{{ .Site.Data.homepage.head.title }}</title>
+<link rel='canonical' href='{{ .Permalink }}'>
 <meta name="description" content="{{ .Site.Data.homepage.head.description }}">
+<meta name="author" content="Josh Friedson">
+
+<meta name="google-site-verification" content="0MqesYOuR-h24UxP-FncU7gF8hicVd1I7xjTkT6Skx4" />
 
 {{ $critical := resources.Get "css/critical.css" | css.Sass | resources.Minify }}
 <style data-generator="critical-css">
