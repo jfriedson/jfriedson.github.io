@@ -4,7 +4,7 @@ head:
 
 showcase:
   enable: true
-  title: "Hello, I’m Josh."
+  title: "Hello, I’m Josh"
   description: "Based in San Diego, I'm an avid Software Engineer who enjoys tackling new and complex problems as part of a team.<br/>After receiving a BASc. in Computer Science from San Diego State University in the Spring of 2021, I began modernizing web app back ends at JPMorgan Chase & Co. My <a href='#projects'>open-source contributions</a> have delved into fields such as GPGPU and deep machine learning. At this time, I'm curating datasets and training heavily quantized, specialized productivity LLMs that utilize the latest research developments in both network architecture and quantization as a business venture.<br/>The latest developments in machine learning and space exploration are thrilling, and I'm passionate about staying up to date on these topics. Outside of the science realm, I enjoy running and learning world history."
   image:
     alt: "Profile picture"
