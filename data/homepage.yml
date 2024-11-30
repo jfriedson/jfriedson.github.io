@@ -42,7 +42,7 @@ experience:
   button3: 
     icon: "icon-arrow-right"
     btnText: "All experience"
-    URL: "/experience"
+    URL: "/experience/"
 
 education:
   enable: true
@@ -62,7 +62,7 @@ certifications:
   button3: 
     icon: "icon-arrow-right"
     btnText: "All certifications"
-    URL: "/certifications"
+    URL: "/certifications/"
 
 projects:
   enable: true
@@ -74,4 +74,4 @@ projects:
   button3: 
     icon: "icon-arrow-right"
     btnText: "All projects"
-    URL: "/projects"
+    URL: "/projects/"
