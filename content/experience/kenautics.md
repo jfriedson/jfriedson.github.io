@@ -9,4 +9,4 @@ duration: "Jun 2016 - Aug 2016"
 ---
 ## The Importance of User Satisfaction
 
-While designing an Android Java application with Android Map integration and some small experiments with serial communications to external embedded systems was an element of this internship, the main intention was to discover ways of improving the underwater experience of handheld navigation and imaging devices for professional divers and brainstorming practical implementations.
+I conceptualized new features for a hand-held underwater diving navigation and imaging system and interviewed the San Diego Harbor Police to discover ways of improving the underwater experience for professional divers. I then began implementing an Android Java application with Android Map integration and some small experiments with serial communications to external embedded systems as a proof-of-concept for the ROS.

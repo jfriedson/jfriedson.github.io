@@ -1,8 +1,7 @@
 ---
-date: 2023-10-21T00:00:00+05:00
+date: 2020-10-21T00:00:00+05:00
 draft: false
 title: "Deep Learning Movie Recommendation"
-year: "2022"
 ---
 ## Deep Learning Movie Recommendation
 

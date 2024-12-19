@@ -53,7 +53,7 @@ unsafe = true
 
   homepageExperienceCount = 2
   homepageCertificationsCount = 4
-  homepageProjectsCount = 6
+  homepageProjectsCount = 7
 
   [params.logo]
     text1 = "Josh"

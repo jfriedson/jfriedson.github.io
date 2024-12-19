@@ -39,10 +39,6 @@ experience:
     icon: "icon-profile-fill"
     btnText: "Download résumé"
     URL: "/files/Friedson_Josh-Resume_Fall_2024.pdf"
-  button3: 
-    icon: "icon-arrow-right"
-    btnText: "All experience"
-    URL: "/experience/"
 
 education:
   enable: true
