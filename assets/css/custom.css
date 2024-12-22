@@ -177,26 +177,24 @@ svg {
 }
 
 [class^="icon-"] {
-    width: 18px;
-    height: 18px;
     fill: currentColor;
 }
 
 .btn [class^="icon-"] {
     width: 18px;
     height: 18px;
-    fill: currentColor;
+    font-size: 19px;
 }
 
 .rad-showcase .platform-links [class^="icon-"] {
-    width: 17px;
-    height: 17px;
+    width: 16px;
+    height: 16px;
 }
 
 @media (min-width: 992px) {
     .rad-showcase .platform-links [class^="icon-"] {
-        width: 19px;
-        height: 19px;
+        width: 18px;
+        height: 18px;
     }
 }
 
