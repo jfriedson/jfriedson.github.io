@@ -4,6 +4,36 @@
     }
 }
 
+/* attempt to undo weird theme styling */
+@media (min-width: 1200px) {
+    .rad-showcase+section {
+        margin-top: 0px;
+    }
+}
+
+@media (min-width: 968px) {
+    .rad-showcase {
+        min-height: 0;
+        padding-top: 140px;
+        margin-bottom: 0;
+    }
+}
+
+.rad-showcase {
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+/* fin weird styling fix */
+
+#showcase-lead {
+    margin-bottom: 0px;
+}
+
+.section--border-bottom::after {
+    width: 90%;
+}
+
 .header .navbar-brand span:first-child {
     color: #429289;
 }
@@ -83,8 +113,14 @@ button:focus {
 }
 
 .btn {
-    border-color: #fff !important;
+    border-color: #000 !important;
     box-shadow: none !important;
+}
+
+@media (prefers-color-scheme: dark) {
+    .btn {
+        border-color: #FFF !important;
+    }
 }
 
 .col-12 .btn + .col-12 .btn {
@@ -134,4 +170,45 @@ button:focus {
         border-color: #fff;
         color: #000;
     }
+}
+
+svg {
+    vertical-align: text-top;
+}
+
+[class^="icon-"] {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.btn [class^="icon-"] {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.rad-showcase .platform-links [class^="icon-"] {
+    width: 17px;
+    height: 17px;
+}
+
+@media (min-width: 992px) {
+    .rad-showcase .platform-links [class^="icon-"] {
+        width: 19px;
+        height: 19px;
+    }
+}
+
+.rad-showcase .platform-links [class^="icon-"]:hover {
+    -webkit-transition-duration: 0.15s;
+    transition-duration: 0.15s;
+    -webkit-transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    -webkit-transition-property: -webkit-transform;
+    transition-property: -webkit-transform;
+    transition-property: transform;
+    transition-property: transform, -webkit-transform;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }

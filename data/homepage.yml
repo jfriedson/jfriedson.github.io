@@ -15,11 +15,11 @@ showcase:
     x: "images/profile.jpg"
 
   socialLinks:
-    - icon: "linkedin-fill"
+    - icon: "icon-linkedin-fill"
       URL: "https://www.linkedin.com/in/joshfriedson/"
-    - icon: "github-line"
+    - svg: "github"
       URL: "https://github.com/jfriedson"
-    - icon: "mail-fill"
+    - icon: "icon-mail-fill"
       URL: "mailto:business@joshfriedson.com"
 
 demo:
