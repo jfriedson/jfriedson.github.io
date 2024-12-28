@@ -44,7 +44,7 @@ unsafe = true
 
   [[menu.header]]
   name = "Resume"
-  URL = "/files/Friedson_Josh-Resume_Fall_2024.pdf"
+  URL = "/files/Friedson_Josh-Resume_Winter_2024.pdf"
   weight = 4
 
 [params]

@@ -4,31 +4,57 @@
     }
 }
 
-/* attempt to undo weird theme styling */
-@media (min-width: 1200px) {
-    .rad-showcase+section {
-        margin-top: 0px;
+/* undo weird theme styling */
+.rad-showcase {
+    padding-top: 80px;
+    margin-bottom: 0px;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+    .rad-showcase {
+        padding-top: 120px;
     }
 }
 
 @media (min-width: 968px) {
     .rad-showcase {
         min-height: 0;
-        padding-top: 140px;
-        margin-bottom: 0;
+        padding-top: 120px;
+    }
+
+    .rad-showcase .container h1 {
+        font-size: 32px;
     }
 }
 
-.rad-showcase {
-    margin-bottom: 0px;
-    padding-bottom: 60px;
+@media (min-width: 992px) {
+    .header {
+        padding-top: 20px;
+    }
+
+    .rad-showcase .container h1 {
+        font-size: 48px;
+    }
 }
 
-/* fin weird styling fix */
+@media (min-width: 1200px) {
+    .rad-showcase+section {
+        margin-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1280px) {
+    .header {
+        padding-top: 20px;
+    }
+}
 
 #showcase-lead {
     margin-bottom: 0px;
 }
+
+/* fin weird styling fix */
 
 .section--border-bottom::after {
     width: 90%;
